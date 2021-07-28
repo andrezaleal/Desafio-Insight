@@ -1,0 +1,27 @@
+.content{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.content-componentes{
+  display: flex;
+}
+.content-componentes-cb{
+  border-right:1px solid  #bababa;
+  padding-right: 30px;
+}
+.content-componentes-table{
+  margin: 0 30px ;
+}
+
+.content-componentes-titulos{
+  margin-top: 20px;
+}
+
+h1{
+  color: #2d4040;
+}
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin: 0;
+  }

@@ -1,0 +1,15 @@
+.component-graph svg {
+  font-size: 25px;
+  color:#55900e;
+  border: 1px solid #55900e;
+  padding: 3px;
+  margin: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+ 
+}
+.component-graph {
+  display: flex;
+  justify-content: flex-end;
+  margin: 23px 0 0;
+}

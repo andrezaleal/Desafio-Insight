@@ -1,0 +1,24 @@
+.cb-group{ 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 250px;
+}
+.ant-checkbox + span{
+  color: #465564;
+}
+.ant-checkbox-inner{
+  border-color: #465564;
+}
+h2{
+  text-align: center;
+  color: #465564;
+}
+button.ant-btn{
+  background-color: #55900e ;
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}

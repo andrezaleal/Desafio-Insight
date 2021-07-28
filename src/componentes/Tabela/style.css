@@ -1,0 +1,29 @@
+.gp-tabela{
+  display: flex;
+  align-items: center;
+}
+button.ant-btn{
+  background-color: #55900e ;
+  color: white;
+  width: 250px;
+  border-radius: 10px;
+
+}
+.component-footer {
+  margin-top: 15px;
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.component-footer svg {
+  font-size: 25px;
+  color:#55900e;
+  border: 1px solid #55900e;
+  padding: 3px;
+  margin: 0 6px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,25 @@
+h1{
+  color: #2d4040;
+  margin: 0;
+}
+.titulo{
+  display: flex; 
+  align-items: center;
+}
+.titulo svg{
+  font-size: 50px;
+  color:   #87d068;
+  font-weight: 900;
+  cursor: pointer;
+}
+.graph-tempo, .graph-evento{
+  width: 48%;
+  text-align: center;
+  border: 2px solid gray;
+  padding: 10px;
+}
+.graph{
+  display: flex;
+  justify-content: space-between;
+
+}

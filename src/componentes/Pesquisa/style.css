@@ -1,0 +1,12 @@
+.ant-select{
+  width: 100%;
+}
+.gp-select{
+  display: flex;
+}
+.gp-select button.ant-btn{
+  margin: 0;
+  width: 120px;
+  margin-left: 25px;
+  
+}
