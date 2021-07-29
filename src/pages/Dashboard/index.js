@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ComponenteCheckbox from '../../componentes/Checkbox';
 import ComponenteSelect from '../../componentes/Pesquisa';
 import ComponenteTable from '../../componentes/Tabela';

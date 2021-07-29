@@ -4,7 +4,7 @@ h1{
 }
 .titulo{
   display: flex; 
-  align-items: center;
+  align-items: flex-start;
 }
 .titulo svg{
   font-size: 50px;
@@ -15,11 +15,19 @@ h1{
 .graph-tempo, .graph-evento{
   width: 48%;
   text-align: center;
-  border: 2px solid gray;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 4px -2px #989898;
+  -moz-box-shadow: 0 4px 4px -2px #989898;
+  -webkit-box-shadow: 0 4px 4px -2px #989898;
   padding: 10px;
+  border-radius:20px;
 }
 .graph{
   display: flex;
   justify-content: space-between;
-
+  padding-top: 36px;
+}
+h3{
+  color: #55900e;
+  text-align: left;
 }

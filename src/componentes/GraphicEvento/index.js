@@ -286,6 +286,7 @@ function GraphicEvento  ()  {
     yField: 'assunto',
     seriesField: 'type',
     marginRatio: 0,
+     color:['#FFAF85','#FFF199','#87C878'],
     assunto: {
       layout: [
         { type: 'interval-adjust-position' },

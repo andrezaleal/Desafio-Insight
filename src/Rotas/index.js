@@ -12,7 +12,7 @@ function Rotas({dataSource}){
       <BrowserRouter>
       <HeaderComponente/>
       <Switch>
-        <Route exact path="/Dashboard" component={PagesDashboard}/>
+        <Route exact path="/" component={PagesDashboard}/>
         <Route path="/Graphic" component={PagesGraphic} />
       </Switch>,
       <Footer/>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Row, Col, Button } from "antd";
 import {AiOutlinePrinter, AiOutlineDiff } from 'react-icons/ai';
 import {SiMicrosoftexcel } from "react-icons/si";
@@ -53,6 +53,7 @@ function ComponenteTable({dataSource}) {
     },
   ];
   return(
+    
     <>
      <Row style={{background: 'rgb(135, 208, 104) ', borderRadius: '30px 30px 0 0'}}>
         <div className="gp-tabela">
@@ -90,7 +91,8 @@ function ComponenteTable({dataSource}) {
             {value.max_num_eventos}
           </Col>
         </Row>
-      )}
+      )
+      }
       <div className="component-footer">
         <div>
           <AiOutlinePrinter/>

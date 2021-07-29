@@ -1,12 +1,14 @@
-import React from 'react'
+import React, {useState}  from 'react'
 import {Select, Button} from 'antd'
 import './style.css'
 const { Option } = Select;
 
-function ComponenteSelect() {
+function ComponenteSelect({dataSource}) {
+ 
   return(
     <>
     <div className= "gp-select">
+     
       <Select
         mode = "tags"
         tokenSeparators={['=']}
